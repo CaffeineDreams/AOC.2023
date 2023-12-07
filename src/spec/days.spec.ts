@@ -1,6 +1,6 @@
 import { AocFunc, GetInputFromFile } from "../helpers/AocHelpers";
 
-describe("AOC Days", async () => {
+describe("AOC Days", () => {
     let days: AocFunc[];
 
     beforeAll(async () => {
@@ -15,7 +15,7 @@ describe("AOC Days", async () => {
 
         console.log({taskA, taskB});
 
-        expect(taskA).toBe("");
-        expect(taskB).toBe("");
+        expect(taskA).toBe("54597");
+        expect(taskB).toBe("54504");
     });
 });

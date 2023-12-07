@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-export type AocFunc = (input: string[]) => string[];
+export type AocFunc = (input: string[]) => [string, string];
 
 export const GetInputFromFile = (filename: string): string[] => {
     const data = fs.readFileSync(filename).toString();

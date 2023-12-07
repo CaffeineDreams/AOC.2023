@@ -4,19 +4,20 @@
   "description": "advent of code 2021",
   "main": "dist/main.js",
   "scripts": {
-    "run": "tsc && node dist/main.js",
+    "all": "tsc && node dist/main.js",
+    "day": "tsc && node dist/main.js 1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "CaffeineDreams",
   "license": "ISC",
   "devDependencies": {
-    "@types/jasmine": "^3.10.2",
-    "@types/node": "^16.11.11",
-    "jasmine": "^3.10.0",
+    "@types/jasmine": "^5.1.4",
+    "@types/node": "^20.10.4",
+    "jasmine": "^5.1.0",
     "jasmine-spec-reporter": "^7.0.0",
     "jasmine-ts": "^0.4.0",
-    "ts-node": "^10.4.0",
+    "ts-node": "^10.9.1",
     "tslint": "^6.1.3",
-    "typescript": "^4.5.2"
+    "typescript": "^5.3.3"
   }
 }
